@@ -1,0 +1,46 @@
+Setup env
+->copy files (server.js, bowerrc)
+->init stuff:
+--->commands:
+	npm init
+	npm install --save express
+	bower ini
+	npm install jade --save
+
+	npm install prompt
+	npm install semver
+	npm install jsonfile --save
+
+
+
+fyi:(http://expressjs.com/guide/using-template-engines.html)
+dir:
+.bowerrc
+server.js
+package.json
+bower.json
+views/index.jade
+public/css/style.css
+
+--->commands:
+	node server.js
+	nodemonpwd
+
+ctrl+a - ctrl/ - commentALL
+
+
+Week3:
+#lodash - OOP library of JS
+#Angular / React / EmberJS / JQuery
+	{} - object literal, short for new Object()
+	every object has dynamic properties
+
+Change Bashgenerator:
+export PS1="\[\e[00;32m\]\h\\$\[\e[0m\]\[\e[00;37m\] \[\e[0m\]"
+http://bashrcgenerator.com/
+
+Console Commands:
+>>>delete - rm -rf TEST_NAME
+
+
+
