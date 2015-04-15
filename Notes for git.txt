@@ -14,6 +14,7 @@
 5. Create a new version. Each version has its own title.
 -m - message
 ==> git commit -m 'First version of the project!'
+==> git commit -am "When something should be deleted use this!"
 
 6. Shows the latest commit
 ==> git log
@@ -67,3 +68,29 @@ https://github.com/Vitosh/TestRepo/commits
 ==> git rm -r one-of-the-directories
 ==> git commit -m "Remove duplicated directory"
 ==> git push origin master
+
+20. Using branches
+
+==> git branch rado
+==> git checkout rado
+switched to branch rado
+
+==> git checkout master
+==> git push origin rado
+
+==> git branch
+=> returns a list of all branches
+
+==> git merge rado
+history from rado goes to the master
+
+==> git branch --delete rado
+(deletes) local master on the HD
+==>git push origin --delete rado
+(deletes) master on the cloud
+
+generate collaborator
+==> touch B
+==> echo "AA" >> B
+==> cat B
+==> AA
