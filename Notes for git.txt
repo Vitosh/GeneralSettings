@@ -94,3 +94,6 @@ generate collaborator
 ==> echo "AA" >> B
 ==> cat B
 ==> AA
+
+21. Fetch
+git pull = git fetch + git merge
