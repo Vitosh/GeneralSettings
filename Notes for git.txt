@@ -102,7 +102,13 @@ git pull = git fetch + git merge
 
 23. git pull --rebase upstream master
 
-24. if you **** **:
+24. if you **** ** and you need to reset git:
  git reset --hard a0d3fe6
  where a0d3fe6 is found by doing
  git reflog
+
+25. Git overwrite local files with pull request
+
+git fetch --all
+git reset --hard origin/master
+git pull origin master
