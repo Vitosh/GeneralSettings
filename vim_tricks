@@ -1,0 +1,90 @@
+power shell -> shell for windows
+c = portal
+z = jump 
+
+shell - interface to the OS
+
+echo $PATH
+which ls
+
+ls -l (each on new line)
+ls -a (hidden files & folders)
+cd .. (previous directory)
+cd .  (current directory)
+
+man zip (manual for zip)
+/ (search within manual)
+n (next search)
+g (go to home)
+q (to exit)
+
+(.bashrc is the configuration file of the terminal)
+subl .bashrc
+alias c='cd ~/code'
+
+rm (delete file)
+rm -r (recursive delete for a folder)
+
+source /home/vman/code/z-master/z.sh
+https://github.com/rupa/z
+
+grep (searches)
+e.g.:
+grep 'def' cinema.py
+wc - 
+
+composition of commands:
+ls /usr/bin | grep python
+ls /usr/bin | grep python | wc -l
+
+:q
+:e 
+    e.g. 
+    :e asd.py
+:w 
+    e.g.
+:wq
+
+vim normal state (mode) - for commands
+vim insert mode - writing code
+
+i 
+    insert mode
+how to paste:
+    vim essential.vim
+    :set paste
+    i
+    crtl + shift + v
+    :wq
+
+http://vim.wikia.com/wiki/Example_vimrc
+vim -u essential.vim essential.vim
+vim -u essential.vim asd.py
+
+Normal mode:
+x       - deletes under cursor
+dd      - deletes the line of the cursor
+u       - crtl+Z
+ctrl+r  - redo
+hjkl    - navigation
+w       - word forward
+b       - word back
+3w      - 3 words forward
+5l      - 5 characters left
+3x      - deletes whole word
+dw      - delete rest of word
+G       - end of file
+gg      - start of file
+0       - start of line
+$       - end of line
+f:      - finds :
+;       - next found
+C       - enters us in insert mode
+o       - new line below + insert mode
+O       - new line above + insert mode
+$a      - add at the end of the line
+$i      - add at the beginning of the line
+A       - $a
+I       - $i
+s       - deletes and goes to insert mode
+/       - search
