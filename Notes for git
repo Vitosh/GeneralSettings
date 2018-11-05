@@ -112,3 +112,11 @@ git pull = git fetch + git merge
 git fetch --all
 git reset --hard origin/master
 git pull origin master
+
+
+------------------
+TLDR:
+git add .
+git commit -m "some message here"
+git status
+git push origin master
