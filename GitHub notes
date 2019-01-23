@@ -140,3 +140,10 @@ rmdir .git
 Linux:
 rm -rf .git*
 
+------------------
+
+Get exact Git from the origin to overwrite the current changes:
+git fetch --all
+git reset --hard origin/master
+
+
