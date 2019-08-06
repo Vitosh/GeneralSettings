@@ -1,14 +1,16 @@
-1. in the folder, write in the terminal:
+### Initialize Git and GitHub Project:
+
+1. In the folder, write in the terminal:
 ==> git init
 
-2. untracked files are shown
+2. Untracked files are shown
 ==> git status
 
-3. stage files to add
+3. Stage files to add
 ==> git add test.py
 ==> git add .
 
-4. show status again
+4. Show status again
 ==> git status
 
 5. Create a new version. Each version has its own title.
@@ -20,7 +22,7 @@
 ==> git log
 to exit log
 ==> q 
- 
+
 6.1. Not needed, a way to register:
 git config --global user.name "Vitosh"
 git config --global user.email "mail@mail.mail"
@@ -74,21 +76,16 @@ https://github.com/Vitosh/TestRepo/commits
 ==> git branch rado
 ==> git checkout rado
 switched to branch rado
-
 ==> git checkout master
 ==> git push origin rado
-
 ==> git branch
 => returns a list of all branches
-
 ==> git merge rado
 history from rado goes to the master
-
 ==> git branch --delete rado
 (deletes) local master on the HD
 ==>git push origin --delete rado
 (deletes) master on the cloud
-
 generate collaborator
 ==> touch B
 ==> echo "AA" >> B
@@ -103,12 +100,11 @@ git pull = git fetch + git merge
 23. git pull --rebase upstream master
 
 24. if you **** ** and you need to reset git:
- git reset --hard a0d3fe6
- where a0d3fe6 is found by doing
- git reflog
+git reset --hard a0d3fe6
+where a0d3fe6 is found by doing
+git reflog
 
 25. Git overwrite local files with pull request
-
 git fetch --all
 git reset --hard origin/master
 git pull origin master
