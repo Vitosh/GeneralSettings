@@ -1,14 +1,14 @@
 ### Initialize Git and GitHub Project:
 
 1. In the folder, write in the terminal:
-==> git init
+- git init
 
 2. Untracked files are shown
-==> git status
+- git status
 
 3. Stage files to add
-==> git add test.py
-==> git add .
+- git add test.py
+- git add .
 
 4. Show status again
 ==> git status
