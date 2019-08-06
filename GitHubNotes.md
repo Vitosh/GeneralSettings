@@ -109,26 +109,26 @@ generate collaborator
 
 
 ### TLDR:
-git add .
-git commit -m "some message here"
-git status
-git push origin master
+- git add .
+- git commit -m "some message here"
+- git status
+- git push origin master
 
 
 ### Rename repository:
 Rename the repository manually. Then run the command to see the new name.
-$ git config --list
-remote.origin.url=ssh://git@git.example.com/newNameHere.git
+- git config --list
+- remote.origin.url=ssh://git@git.example.com/newNameHere.git
 Run Git to change the name
-$ git remote set-url origin https://git.example.com/newNameHere.git
+- git remote set-url origin https://git.example.com/newNameHere.git
 
 ### Remove Git from local folder
 Navigate to the folder
 Windows:
-del /F /S /Q /A .git
-rmdir .git
+- del /F /S /Q /A .git
+- rmdir .git
 Linux:
-rm -rf .git*
+- rm -rf .git*
 
 ### Overwrite the current changes
 Get exact Git from the origin to overwrite the current changes:
@@ -137,7 +137,7 @@ git reset --hard origin/master
 https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
 
 ### Remove local untracked files:
-git clean -n
-git clean -f
+- git clean -n
+- git clean -f
 
 
