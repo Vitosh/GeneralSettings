@@ -11,38 +11,38 @@
 - git add .
 
 4. Show status again
-==> git status
+- git status
 
 5. Create a new version. Each version has its own title.
--m - message
-==> git commit -m 'First version of the project!'
-==> git commit -am "When something should be deleted use this!"
+- m - message
+- git commit -m 'First version of the project!'
+- git commit -am "When something should be deleted use this!"
 
 6. Shows the latest commit
-==> git log
+- git log
 to exit log
-==> q 
+- q 
 
-6.1. Not needed, a way to register:
-git config --global user.name "Vitosh"
-git config --global user.email "mail@mail.mail"
+6. Not needed, a way to register:
+- git config --global user.name "Vitosh"
+- git config --global user.email "mail@mail.mail"
 
 7. Shows the different versions
-==> git diff
+- git diff
 
 8. Create new repository at github:
-==> https://github.com/new
+- https://github.com/new
 
 9. Remotes per repository
-==> git remote -v
-vman@vman-Studio-1555:~/Desktop/TestRepo$ git remote -v
-origin	https://github.com/Vitosh/TestRepo.git (fetch)
-origin	https://github.com/Vitosh/TestRepo.git (push)
+- git remote -v
+- vman@vman-Studio-1555:~/Desktop/TestRepo$ git remote -v
+- origin	https://github.com/Vitosh/TestRepo.git (fetch)
+- origin	https://github.com/Vitosh/TestRepo.git (push)
 
 10. Add a remote repository
-==> git remote add {Name} {Address}
-==>git remote add origin https://github.com/Vitosh/TestRepo.git
-"origin" is the name of the repository
+- git remote add {Name} {Address}
+- git remote add origin https://github.com/Vitosh/TestRepo.git
+**"origin" is the name of the repository
 
 11. Push 
 ==>git push -u origin master
