@@ -141,3 +141,10 @@ https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite
 - git clean -f
 
 
+### Get specific branch:
+git init
+git remote add origin https://github.com/Vitosh/VBA_personal.git
+git fetch --all
+git checkout develop
+![pic](https://i.stack.imgur.com/YbKsg.png)
+
