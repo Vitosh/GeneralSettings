@@ -1,36 +1,53 @@
 ### Initialize Git and GitHub Project:
 
 1. In the folder, write in the terminal:
-- git init
+
+`git init`
 
 2. Untracked files are shown
-- git status
+```
+git status
+```
 
 3. Stage files to add
-- git add test.py
-- git add .
+```
+git add test.py
+git add .
+```
 
 4. Show status again
-- git status
+```
+git status
+```
 
 5. Create a new version. Each version has its own title.
-- m - message
-- git commit -m 'First version of the project!'
-- git commit -am "When something should be deleted use this!"
+```
+m - message
+git commit -m 'First version of the project!'
+git commit -am "When something should be deleted use this!"
+```
 
 6. Shows the latest commit
-- git log
-- to exit log: - q 
+```
+git log
+```
+to exit log: `- q `
 
 6. Not needed, a way to register:
-- git config --global user.name "Vitosh"
-- git config --global user.email "mail@mail.mail"
+```
+git config --global user.name "Vitosh"
+git config --global user.email "mail@mail.mail"
+```
 
 7. Shows the different versions
-- git diff
+```
+git diff
+```
 
 8. Create new repository at github:
-- https://github.com/new
+```
+https://github.com/new
+```
 
 9. Remotes per repository
 ```
@@ -41,17 +58,25 @@ origin	https://github.com/Vitosh/TestRepo.git (push)
 ```
 
 10. Add a remote repository
-- git remote add {Name} {Address}
-- git remote add origin https://github.com/Vitosh/TestRepo.git
+```
+git remote add {Name} {Address}
+git remote add origin https://github.com/Vitosh/TestRepo.git
+```
 
 11. Push 
-- git push -u origin master
+```
+git push -u origin master
+```
 
 12. Delete remote directory:
-- git remote rm origin
+```
+git remote rm origin
+```
 
-13. 
-- git remote add origin git@github.com:Vitosh/TestRepo.git
+13. Adding the repo:
+```
+git remote add origin git@github.com:Vitosh/TestRepo.git
+```
 
 14. Make SSH - Secure Shell
 - https://github.com/settings/profile
