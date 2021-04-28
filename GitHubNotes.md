@@ -108,26 +108,26 @@ git push origin master
 git branch rado
 git checkout rado
 ```
-switched to branch rado
+- switched to branch rado
 ```
 git checkout master
 git push origin rado
 git branch
 ```
-=> returns a list of all branches
+- => returns a list of all branches
 ```
 git merge rado
 ```
-history from rado goes to the master
+- history from rado goes to the master
 ```
 git branch --delete rado
 ```
-(deletes) local master on the HD
+- (deletes) local master on the HD
 ```
 git push origin --delete rado
 ```
-(deletes) master on the cloud
-generate collaborator:
+- (deletes) master on the cloud
+- generate collaborator:
 ```
 touch B
 echo "AA" >> B
