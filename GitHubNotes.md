@@ -1,8 +1,9 @@
 ### Initialize Git and GitHub Project:
 
 1. In the folder, write in the terminal:
-
-`git init`
+```
+git init
+```
 
 2. Untracked files are shown
 ```
