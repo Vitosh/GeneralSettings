@@ -92,7 +92,9 @@ git pull origin master
 - https://github.com/Vitosh/TestRepo/commits
 
 17. Cloning the repo
-- git clone git@github~
+```
+git clone git@github~
+```
 
 18. Remove directory from git and local
 ```
@@ -102,30 +104,44 @@ git push origin master
 ```
 
 20. Using branches
-
-- git branch rado
-- git checkout rado
+```
+git branch rado
+git checkout rado
+```
 switched to branch rado
-- git checkout master
-- git push origin rado
-- git branch
+```
+git checkout master
+git push origin rado
+git branch
+```
 => returns a list of all branches
-- git merge rado
+```
+git merge rado
+```
 history from rado goes to the master
-- git branch --delete rado
+```
+git branch --delete rado
+```
 (deletes) local master on the HD
-- git push origin --delete rado
+```
+git push origin --delete rado
+```
 (deletes) master on the cloud
-generate collaborator
-- touch B
-- echo "AA" >> B
-- cat B
-- AA
+generate collaborator:
+```
+touch B
+echo "AA" >> B
+cat B
+AA
+```
 
 21. Fetch
-- git pull = git fetch + git merge
+`git pull = git fetch + git merge`
 
-22. git remote add upstream https://~
+22. Adding upstream
+```
+git remote add upstream https://~
+```
 
 23. git pull --rebase upstream master
 
@@ -153,10 +169,14 @@ git push origin master
 
 ### Rename repository:
 - Rename the repository manually. Then run the command to see the new name.
-`git config --list`
-`remote.origin.url=ssh://git@git.example.com/newNameHere.git`
+```
+git config --list
+remote.origin.url=ssh://git@git.example.com/newNameHere.git
+```
 - Run Git to change the name
-`git remote set-url origin https://git.example.com/newNameHere.git`
+```
+git remote set-url origin https://git.example.com/newNameHere.git
+```
 
 ### Remove Git from local folder
 Navigate to the folder
