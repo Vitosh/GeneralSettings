@@ -33,10 +33,12 @@
 - https://github.com/new
 
 9. Remotes per repository
-- git remote -v
-- vman@vman-Studio-1555:~/Desktop/TestRepo$ git remote -v
-- origin	https://github.com/Vitosh/TestRepo.git (fetch)
-- origin	https://github.com/Vitosh/TestRepo.git (push)
+```
+git remote -v
+vman@vman-Studio-1555:~/Desktop/TestRepo$ git remote -v
+origin	https://github.com/Vitosh/TestRepo.git (fetch)
+origin	https://github.com/Vitosh/TestRepo.git (push)
+```
 
 10. Add a remote repository
 - git remote add {Name} {Address}
@@ -56,7 +58,9 @@
 - https://help.github.com/articles/generating-ssh-keys/ls
 
 15. Pulling
-- git pull origin master
+```
+git pull origin master
+```
 
 16. History Commits
 - https://github.com/Vitosh/TestRepo/commits
@@ -65,9 +69,11 @@
 - git clone git@github~
 
 18. Remove directory from git and local
-- git rm -r one-of-the-directories
-- git commit -m "Remove duplicated directory"
-- git push origin master
+```
+git rm -r one-of-the-directories
+git commit -m "Remove duplicated directory"
+git push origin master
+```
 
 20. Using branches
 
@@ -98,53 +104,64 @@ generate collaborator
 23. git pull --rebase upstream master
 
 24. if you **** ** and you need to reset git:
-- git reset --hard a0d3fe6
-- where a0d3fe6 is found by doing
-- git reflog
+```
+git reset --hard a0d3fe6
+where a0d3fe6 is found by doing
+git reflog
+```
 
 25. Git overwrite local files with pull request
-- git fetch --all
-- git reset --hard origin/master
-- git pull origin master
-
+```
+git fetch --all
+git reset --hard origin/master
+git pull origin master
+```
 
 ### TLDR:
-- git add .
-- git commit -m "some message here"
-- git status
-- git push origin master
-
+```
+git add .
+git commit -m "some message here"
+git status
+git push origin master
+```
 
 ### Rename repository:
-Rename the repository manually. Then run the command to see the new name.
-- git config --list
-- remote.origin.url=ssh://git@git.example.com/newNameHere.git
-Run Git to change the name
-- git remote set-url origin https://git.example.com/newNameHere.git
+- Rename the repository manually. Then run the command to see the new name.
+`git config --list`
+`remote.origin.url=ssh://git@git.example.com/newNameHere.git`
+- Run Git to change the name
+`git remote set-url origin https://git.example.com/newNameHere.git`
 
 ### Remove Git from local folder
 Navigate to the folder
-Windows:
-- del /F /S /Q /A .git
-- rmdir .git
-Linux:
-- rm -rf .git*
+- Windows:
+```
+del /F /S /Q /A .git
+rmdir .git
+```
+- Linux:
+`rm -rf .git*`
 
 ### Overwrite the current changes
 Get exact Git from the origin to overwrite the current changes:
+```
 git fetch --all
 git reset --hard origin/master
+```
 https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
 
 ### Remove local untracked files:
-- git clean -n
-- git clean -f
-
+```
+git clean -n
+git clean -f
+```
 
 ### Get specific branch:
+```
 git init
 git remote add origin https://github.com/Vitosh/VBA_personal.git
 git fetch --all
 git checkout develop
+```
 ![pic](https://i.stack.imgur.com/YbKsg.png)
 
