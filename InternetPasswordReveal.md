@@ -1,2 +1,3 @@
-`netsh wlan show profiles`
-`netsh wlan show profile name={name} key = clear`
+```netsh wlan show profiles
+netsh wlan show profile name={name} key = clear
+```
