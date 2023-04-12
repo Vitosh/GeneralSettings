@@ -1,3 +1,8 @@
+#### Allow unrelated histories
+```
+git pull origin master --allow-unrelated-histories
+```
+
 ### Initialize Git and GitHub Project:
 
 1. In the folder, write in the terminal:
